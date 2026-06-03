@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=18.20.0"
   },
   "scripts": {
     "api": "node scripts/flipkart-proxy.mjs",
@@ -15,9 +15,9 @@
     "scrape:flipkart": "node scripts/scrape-flipkart.mjs"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^5.1.1",
+    "@vitejs/plugin-react": "^4.3.1",
     "typescript": "^5.9.3",
-    "vite": "^7.2.6",
+    "vite": "^5.4.2",
     "react": "^19.2.1",
     "react-dom": "^19.2.1"
   },
